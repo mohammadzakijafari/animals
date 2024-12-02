@@ -1,0 +1,23 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    padding: 10px;
+}
+.add-animal-btn {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.animal-list {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
